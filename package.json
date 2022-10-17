@@ -1,0 +1,22 @@
+{
+  "name": "gaming-seit-tech-test-master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test:api": "jest --selectProjects api",
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.5.0",
+    "@types/jest": "^29.1.2",
+    "axios": "^1.1.2",
+    "dotenv": "^16.0.3",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6",
+    "jest": "^29.1.2",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}
